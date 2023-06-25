@@ -1,0 +1,2024 @@
+local function createGui(parent)
+	--ScreenGui1--
+	local ScreenGui1 = Instance.new("ScreenGui",parent)
+	ScreenGui1["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling
+	----ScreenGui1----
+	--Script2--
+	local Script2 = Instance.new("Script",ScreenGui1)
+	----Script2----
+	--Frame3--
+	local Frame3 = Instance.new("Frame",ScreenGui1)
+	Frame3["Name"] = "MainFrame"
+	Frame3["Position"] = UDim2.new(0, 473, 0, 101)
+	Frame3["BorderColor3"] = Color3.new(0.0588235, 0.0588235, 0.0588235)
+	Frame3["Size"] = UDim2.new(0, 550, 0, 318)
+	Frame3["BorderSizePixel"] = 0
+	Frame3["BackgroundColor3"] = Color3.new(0.0588235, 0.0588235, 0.0588235)
+	----Frame3----
+	--Frame4--
+	local Frame4 = Instance.new("Frame",Frame3)
+	Frame4["Name"] = "Buttons"
+	Frame4["Position"] = UDim2.new(0.00290910201, 0, 0.119918346, 0)
+	Frame4["BorderColor3"] = Color3.new(0.0588235, 0.0588235, 0.0588235)
+	Frame4["Size"] = UDim2.new(0, 156, 0, 280)
+	Frame4["BorderSizePixel"] = 0
+	Frame4["BackgroundColor3"] = Color3.new(0.0588235, 0.0588235, 0.0588235)
+	----Frame4----
+	--UICorner5--
+	local UICorner5 = Instance.new("UICorner",Frame4)
+	UICorner5["CornerRadius"] = UDim.new(0, 4)
+	----UICorner5----
+	--TextButton6--
+	local TextButton6 = Instance.new("TextButton",Frame4)
+	TextButton6["TextWrapped"] = true
+	TextButton6["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton6["BorderColor3"] = Color3.new(0.0588235, 0.0588235, 0.0588235)
+	TextButton6["Text"] = "Home"
+	TextButton6["Font"] = Enum.Font.FredokaOne
+	TextButton6["Name"] = "Home"
+	TextButton6["Position"] = UDim2.new(0.0337492526, 0, -0.00131241255, 0)
+	TextButton6["BackgroundTransparency"] = 1
+	TextButton6["Size"] = UDim2.new(0, 145, 0, 32)
+	TextButton6["TextSize"] = 23
+	TextButton6["BackgroundColor3"] = Color3.new(0.47451, 0.47451, 0.47451)
+	----TextButton6----
+	--TextButton7--
+	local TextButton7 = Instance.new("TextButton",Frame4)
+	TextButton7["TextWrapped"] = true
+	TextButton7["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton7["Text"] = "Funky Friday"
+	TextButton7["Font"] = Enum.Font.FredokaOne
+	TextButton7["Name"] = "EXE"
+	TextButton7["Position"] = UDim2.new(0.0348799229, 0, 0.111852176, 0)
+	TextButton7["Size"] = UDim2.new(0, 145, 0, 32)
+	TextButton7["BackgroundTransparency"] = 1
+	TextButton7["TextSize"] = 23
+	TextButton7["BackgroundColor3"] = Color3.new(0.47451, 0.47451, 0.47451)
+	----TextButton7----
+	--TextButton8--
+	local TextButton8 = Instance.new("TextButton",Frame4)
+	TextButton8["TextWrapped"] = true
+	TextButton8["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton8["Text"] = "Scripts"
+	TextButton8["Font"] = Enum.Font.FredokaOne
+	TextButton8["Name"] = "Hub"
+	TextButton8["Position"] = UDim2.new(0.0380610973, 0, 0.224398971, 0)
+	TextButton8["Size"] = UDim2.new(0, 145, 0, 32)
+	TextButton8["BackgroundTransparency"] = 1
+	TextButton8["TextSize"] = 23
+	TextButton8["BackgroundColor3"] = Color3.new(0.47451, 0.47451, 0.47451)
+	----TextButton8----
+	--TextButton9--
+	local TextButton9 = Instance.new("TextButton",Frame4)
+	TextButton9["TextWrapped"] = true
+	TextButton9["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton9["Text"] = "Dahood Scripts"
+	TextButton9["Font"] = Enum.Font.FredokaOne
+	TextButton9["Name"] = "Settings"
+	TextButton9["Position"] = UDim2.new(0.0405799672, 0, 0.338160366, 0)
+	TextButton9["Size"] = UDim2.new(0, 144, 0, 32)
+	TextButton9["BackgroundTransparency"] = 1
+	TextButton9["TextSize"] = 23
+	TextButton9["BackgroundColor3"] = Color3.new(0.47451, 0.47451, 0.47451)
+	----TextButton9----
+	--TextButton10--
+	local TextButton10 = Instance.new("TextButton",Frame4)
+	TextButton10["TextWrapped"] = true
+	TextButton10["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton10["Text"] = "Dahood Locks"
+	TextButton10["Font"] = Enum.Font.FredokaOne
+	TextButton10["Name"] = "Credits"
+	TextButton10["Position"] = UDim2.new(0.0403090268, 0, 0.449062765, 0)
+	TextButton10["Size"] = UDim2.new(0, 145, 0, 33)
+	TextButton10["BackgroundTransparency"] = 1
+	TextButton10["TextSize"] = 24
+	TextButton10["BackgroundColor3"] = Color3.new(0.47451, 0.47451, 0.47451)
+	----TextButton10----
+	--Frame11--
+	local Frame11 = Instance.new("Frame",Frame3)
+	Frame11["Name"] = "Pages"
+	Frame11["Position"] = UDim2.new(0.292965978, 0, 0.0157232694, 0)
+	Frame11["BorderColor3"] = Color3.new(0.0588235, 0.0588235, 0.0588235)
+	Frame11["Size"] = UDim2.new(0, 263, 0, 309)
+	Frame11["BorderSizePixel"] = 0
+	Frame11["BackgroundColor3"] = Color3.new(0.0588235, 0.0588235, 0.0588235)
+	----Frame11----
+	--UICorner12--
+	local UICorner12 = Instance.new("UICorner",Frame11)
+	UICorner12["CornerRadius"] = UDim.new(0, 4)
+	----UICorner12----
+	--Frame13--
+	local Frame13 = Instance.new("Frame",Frame11)
+	Frame13["Name"] = "Home"
+	Frame13["Position"] = UDim2.new(0.0128097245, 0, -0.0018065616, 0)
+	Frame13["Size"] = UDim2.new(0, 258, 0, 310)
+	Frame13["BorderSizePixel"] = 0
+	Frame13["BackgroundColor3"] = Color3.new(0.0588235, 0.0588235, 0.0588235)
+	----Frame13----
+	--UICorner14--
+	local UICorner14 = Instance.new("UICorner",Frame13)
+	UICorner14["CornerRadius"] = UDim.new(0, 4)
+	----UICorner14----
+	--TextLabel15--
+	local TextLabel15 = Instance.new("TextLabel",Frame13)
+	TextLabel15["TextWrapped"] = true
+	TextLabel15["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel15["Text"] = "Home"
+	TextLabel15["Font"] = Enum.Font.FredokaOne
+	TextLabel15["BackgroundTransparency"] = 1
+	TextLabel15["Position"] = UDim2.new(0.11118713, 0, -0.0032258064, 0)
+	TextLabel15["Size"] = UDim2.new(0, 200, 0, 15)
+	TextLabel15["TextSize"] = 25
+	TextLabel15["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel15----
+	--TextLabel16--
+	local TextLabel16 = Instance.new("TextLabel",Frame13)
+	TextLabel16["TextWrapped"] = true
+	TextLabel16["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel16["Text"] = "Dm corrupted#2222 if u find any bugs or want me to add something."
+	TextLabel16["Font"] = Enum.Font.FredokaOne
+	TextLabel16["BackgroundTransparency"] = 1
+	TextLabel16["Position"] = UDim2.new(0, 0, 0.0774193555, 0)
+	TextLabel16["TextSize"] = 14
+	TextLabel16["Size"] = UDim2.new(0, 258, 0, 29)
+	TextLabel16["TextScaled"] = true
+	TextLabel16["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel16----
+	--Frame17--
+	local Frame17 = Instance.new("Frame",Frame13)
+	Frame17["BorderColor3"] = Color3.new(0.105882, 0.164706, 0.207843)
+	Frame17["Size"] = UDim2.new(0, 250, 0, 225)
+	Frame17["Position"] = UDim2.new(0.0155038759, 0, 0.267741948, 0)
+	Frame17["BackgroundColor3"] = Color3.new(0.0784314, 0.0784314, 0.0784314)
+	----Frame17----
+	--UICorner18--
+	local UICorner18 = Instance.new("UICorner",Frame17)
+	----UICorner18----
+	--TextLabel19--
+	local TextLabel19 = Instance.new("TextLabel",Frame17)
+	TextLabel19["Size"] = UDim2.new(0, 267, 0, 18)
+	TextLabel19["Font"] = Enum.Font.FredokaOne
+	TextLabel19["BackgroundTransparency"] = 1
+	TextLabel19["Position"] = UDim2.new(0.00400000019, 0, 0.928888857, 0)
+	TextLabel19["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel19["Text"] = "Welcome to Cheatedd offical script."
+	TextLabel19["TextSize"] = 14
+	TextLabel19["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel19----
+	--TextLabel20--
+	local TextLabel20 = Instance.new("TextLabel",Frame13)
+	TextLabel20["Size"] = UDim2.new(0, 203, 0, 24)
+	TextLabel20["Font"] = Enum.Font.FredokaOne
+	TextLabel20["BackgroundTransparency"] = 1
+	TextLabel20["Position"] = UDim2.new(0.108527131, 0, 0.190322563, 0)
+	TextLabel20["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel20["Text"] = "Update Log"
+	TextLabel20["TextSize"] = 19
+	TextLabel20["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel20----
+	--Frame21--
+	local Frame21 = Instance.new("Frame",Frame11)
+	Frame21["Visible"] = false
+	Frame21["Name"] = "Exe"
+	Frame21["Position"] = UDim2.new(0.0204142872, 0, -0.00180651224, 0)
+	Frame21["Size"] = UDim2.new(0, 256, 0, 309)
+	Frame21["BorderSizePixel"] = 0
+	Frame21["BackgroundColor3"] = Color3.new(0.0588235, 0.0588235, 0.0588235)
+	----Frame21----
+	--UICorner22--
+	local UICorner22 = Instance.new("UICorner",Frame21)
+	UICorner22["CornerRadius"] = UDim.new(0, 4)
+	----UICorner22----
+	--TextLabel23--
+	local TextLabel23 = Instance.new("TextLabel",Frame21)
+	TextLabel23["TextWrapped"] = true
+	TextLabel23["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel23["Text"] = "Funky Friday"
+	TextLabel23["Font"] = Enum.Font.FredokaOne
+	TextLabel23["BackgroundTransparency"] = 1
+	TextLabel23["Position"] = UDim2.new(0.11118713, 0, -0.0032258064, 0)
+	TextLabel23["Size"] = UDim2.new(0, 200, 0, 15)
+	TextLabel23["TextSize"] = 25
+	TextLabel23["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel23----
+	--TextButton24--
+	local TextButton24 = Instance.new("TextButton",Frame21)
+	TextButton24["TextWrapped"] = true
+	TextButton24["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton24["Text"] = "Execute first"
+	TextButton24["Font"] = Enum.Font.FredokaOne
+	TextButton24["Name"] = "execute first"
+	TextButton24["Position"] = UDim2.new(0.0177158527, 0, 0.0796199292, 0)
+	TextButton24["TextSize"] = 14
+	TextButton24["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton24["TextScaled"] = true
+	TextButton24["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton24.MouseButton1Click:Connect(function()
+		--credits to thatsnotmatt#2602
+getgenv().keytoclick = "Delete"
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = keytoclick
+tool.Activated:connect(function()
+    local vim = game:service("VirtualInputManager")
+vim:SendKeyEvent(true, keytoclick, false, game)
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+wait(0.2)
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+Notify({
+Description = "thatsnotmatt#2602";
+Title = "zzz#0001";
+Duration = 10;
+});
+	end)
+	----TextButton24----
+	--UICorner25--
+	local UICorner25 = Instance.new("UICorner",TextButton24)
+	UICorner25["CornerRadius"] = UDim.new(0, 4)
+	----UICorner25----
+	--TextButton26--
+	local TextButton26 = Instance.new("TextButton",Frame21)
+	TextButton26["TextWrapped"] = true
+	TextButton26["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton26["Text"] = "keyboard"
+	TextButton26["Font"] = Enum.Font.FredokaOne
+	TextButton26["Name"] = "keyboard"
+	TextButton26["Position"] = UDim2.new(0.0177158862, 0, 0.4397825, 0)
+	TextButton26["TextSize"] = 14
+	TextButton26["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton26["TextScaled"] = true
+	TextButton26["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton26.MouseButton1Click:Connect(function()
+		local runService = game:GetService('RunService')
+local userInputService = game:GetService('UserInputService')
+local virtualInputManager = game:GetService('VirtualInputManager')
+
+local random = Random.new()
+
+local task = task or getrenv().task;
+local fastWait, fastSpawn = task.wait, task.spawn;
+
+-- firesignal implementation
+-- hitchance rolling
+local fireSignal, rollChance do
+    -- updated for script-ware or whatever
+    -- attempted to update for krnl
+
+    function fireSignal(target, signal, ...)
+        -- getconnections with InputBegan / InputEnded does not work without setting Synapse to the game's context level
+        set_identity(2)
+        local didFire = false
+        for _, signal in next, getconnections(signal) do
+            if type(signal.Function) == 'function' and islclosure(signal.Function) then
+                local scr = rawget(getfenv(signal.Function), 'script')
+                if scr == target then
+                    didFire = true
+                    pcall(signal.Function, ...)
+                end
+            end
+        end
+        -- if not didFire then fail"couldnt fire input signal" end
+        set_identity(7)
+    end
+
+    -- uses a weighted random system
+    -- its a bit scuffed rn but it works good enough
+
+    function rollChance()
+        -- if (//library.flags.autoPlayerMode == 'Manual') then
+        if Options.AutoplayerMode.Value == 'Manual' then
+            if (Options.SickBind:GetState()) then return 'Sick' end
+            if (Options.GoodBind:GetState()) then return 'Good' end
+            if (Options.OkayBind:GetState()) then return 'Ok' end
+            if (Options.BadBind:GetState()) then return 'Bad' end
+
+            return 'Bad' -- incase if it cant find one
+        end
+
+        local chances = {
+            { 'Sick', Options.SickChance.Value },
+            { 'Good', Options.GoodChance.Value },
+            { 'Ok', Options.OkChance.Value },
+            { 'Bad', Options.BadChance.Value },
+            { 'Miss' , Options.MissChance.Value },
+        }
+
+        table.sort(chances, function(a, b)
+            return a[2] > b[2]
+        end)
+
+        local sum = 0;
+        for i = 1, #chances do
+            sum += chances[i][2]
+        end
+
+        if sum == 0 then
+            return chances[random:NextInteger(1, #chances)][1]
+        end
+
+        local initialWeight = random:NextInteger(0, sum)
+        local weight = 0;
+
+        for i = 1, #chances do
+            weight = weight + chances[i][2]
+
+            if weight > initialWeight then
+                return chances[i][1]
+            end
+        end
+
+        return 'Sick'
+    end
+end
+
+-- autoplayer
+local chanceValues do
+    chanceValues = { 
+        Sick = 96,
+        Good = 92,
+        Ok = 87,
+        Bad = 75,
+    }
+
+    local keyCodeMap = {}
+    for _, enum in next, Enum.KeyCode:GetEnumItems() do
+        keyCodeMap[enum.Value] = enum
+    end
+
+    if shared._unload then
+        pcall(shared._unload)
+    end
+
+    function shared._unload()
+        if shared._id then
+            pcall(runService.UnbindFromRenderStep, runService, shared._id)
+        end
+
+        UI:Unload()
+
+        for i = 1, #shared.threads do
+            coroutine.close(shared.threads[i])
+        end
+
+        for i = 1, #shared.callbacks do
+            task.spawn(shared.callbacks[i])
+        end
+    end
+
+    shared.threads = {}
+    shared.callbacks = {}
+
+    shared._id = httpService:GenerateGUID(false)
+
+    local function pressKey(keyCode, state)
+        if Options.PressMode.Value == 'virtual input' then
+            virtualInputManager:SendKeyEvent(state, keyCode, false, nil)
+        else
+            fireSignal(scrollHandler, userInputService[state and 'InputBegan' or 'InputEnded'], { KeyCode = keyCode, UserInputType = Enum.UserInputType.Keyboard }, false)
+        end
+    end
+
+    local rng = Random.new()
+    runService:BindToRenderStep(shared._id, 1, function()
+        --if (not library.flags.autoPlayer) then return end
+        
+        if (not Toggles.Autoplayer) or (not Toggles.Autoplayer.Value) then 
+            return 
+        end
+
+        local currentlyPlaying = framework.SongPlayer.CurrentlyPlaying
+
+        if typeof(currentlyPlaying) ~= 'Instance' or not currentlyPlaying:IsA('Sound') then 
+            return 
+        end
+
+        local arrows = framework.UI:GetNotes()
+        local count = framework.SongPlayer:GetKeyCount()
+        local mode = count .. 'Key'
+
+        local arrowData = framework.ArrowData[mode].Arrows
+        for i, arrow in next, arrows do
+            -- todo: switch to this (https://i.imgur.com/pEVe6Tx.png)
+            local ignoredNoteTypes = { Death = true, Mechanic = true, Poison = true }
+
+            if type(arrow.NoteDataConfigs) == 'table' then 
+                if ignoredNoteTypes[arrow.NoteDataConfigs.Type] then 
+                    continue
+                end
+            end
+
+            if (arrow.Side == framework.UI.CurrentSide) and (not arrow.Marked) and currentlyPlaying.TimePosition > 0 then
+                local position = (arrow.Data.Position % count) .. '' 
+
+                local hitboxOffset = 0 
+                do
+                    local settings = framework.Settings;
+                    local offset = type(settings) == 'table' and settings.HitboxOffset;
+                    local value = type(offset) == 'table' and offset.Value;
+
+                    if type(value) == 'number' then
+                        hitboxOffset = value;
+                    end
+
+                    hitboxOffset = hitboxOffset / 1000
+                end
+
+                local songTime = framework.SongPlayer.CurrentTime 
+                do
+                    local configs = framework.SongPlayer.CurrentSongConfigs
+                    local playbackSpeed = type(configs) == 'table' and configs.PlaybackSpeed
+
+                    if type(playbackSpeed) ~= 'number' then
+                        playbackSpeed = 1
+                    end
+
+                    songTime = songTime /  playbackSpeed
+                end
+
+                local noteTime = math.clamp((1 - math.abs(arrow.Data.Time - (songTime + hitboxOffset))) * 100, 0, 100)
+
+                local result = rollChance()
+                arrow._hitChance = arrow._hitChance or result;
+
+                local hitChance = (Options.AutoplayerMode.Value == 'Manual' and result or arrow._hitChance)
+                if hitChance ~= "Miss" and noteTime >= chanceValues[arrow._hitChance] then
+                    fastSpawn(function()
+                        arrow.Marked = true;
+                        local keyCode = keyCodeMap[arrowData[position].Keybinds.Keyboard[1]]
+
+                        pressKey(keyCode, true)
+
+                        local arrowLength = arrow.Data.Length or 0
+                        local isHeld = arrowLength > 0
+
+                        local delayMode = Options.DelayMode.Value
+
+                        local minDelay = isHeld and Options.HeldDelayMin or Options.NoteDelayMin;
+                        local maxDelay = isHeld and Options.HeldDelayMax or Options.NoteDelayMax;
+                        local noteDelay = isHeld and Options.HeldDelay or Options.ReleaseDelay
+
+                        local delay = delayMode == 'Random' and rng:NextNumber(minDelay.Value, maxDelay.Value) or noteDelay.Value
+                        task.wait(arrowLength + (delay / 1000))
+
+                        pressKey(keyCode, false)
+                        arrow.Marked = nil;
+                    end)
+                end
+            end
+        end
+    end)
+end
+
+local ActivateUnlockables do
+    -- Note: I know you can do this with UserId but it only works if you run it before opening the notes menu
+    -- My script should work no matter the order of which you run things :)
+
+    local loadStyle = nil
+    local function loadStyleProxy(...)
+        -- This forces the styles to reload every time
+            
+        local upvalues = getupvalues(loadStyle)
+        for i, upvalue in next, upvalues do
+            if type(upvalue) == 'table' and rawget(upvalue, 'Style') then
+                rawset(upvalue, 'Style', nil);
+                setupvalue(loadStyle, i, upvalue)
+            end
+        end
+
+        return loadStyle(...)
+    end
+
+    local function applyLoadStyleProxy(...)
+        local gc = getgc()
+        for i = 1, #gc do
+            local obj = gc[i]
+            if type(obj) == 'function' then
+                -- goodbye nups numeric loop because script-ware is weird
+                local upvalues = getupvalues(obj)
+                for i, upv in next, upvalues do
+                    if type(upv) == 'function' and getinfo(upv).name == 'LoadStyle' then
+                        -- ugly but it works, we don't know every name for is_synapse_function and similar
+                        local function isGameFunction(fn)
+                            return getinfo(fn).source:match('%.ArrowSelector%.Customize$')
+                        end
+
+                        if isGameFunction(obj) and isGameFunction(upv) then
+                            -- avoid non-game functions :)
+                            loadStyle = loadStyle or upv
+                            setupvalue(obj, i, loadStyleProxy)
+
+                            table.insert(shared.callbacks, function()
+                                assert(pcall(setupvalue, obj, i, loadStyle))
+                            end)
+                        end
+                    end
+                end
+            end
+        end
+    end
+
+    local success, error = pcall(applyLoadStyleProxy)
+    if not success then
+        return fail(string.format('Failed to hook LoadStyle function. Error(%q)\nExecutor(%q)\n', error, executor))
+    end
+
+    function ActivateUnlockables()
+        local idx = table.find(framework.SongsWhitelist, client.UserId)
+        if idx then return end
+
+        UI:Notify('Developer arrows have been unlocked!', 3)
+        table.insert(framework.SongsWhitelist, client.UserId)
+    end
+end
+
+-- UpdateScore hook
+do
+    while type(roundManager) ~= 'table' do
+        task.wait()
+        roundManager = network.Server.RoundManager
+    end
+
+    local oldUpdateScore = roundManager.UpdateScore;
+    function roundManager.UpdateScore(...)
+        local args = { ... }
+        local score = args[2]
+
+        if type(score) == 'number' and Options.ScoreModifier then
+        --    table.foreach(args, warn)
+            if Options.ScoreModifier.Value == 'No decrease on miss' then
+                args[2] = 0
+            elseif Options.ScoreModifier.Value == 'Increase score on miss' then
+                args[2] = math.abs(score)
+            end
+        end
+
+        return oldUpdateScore(unpack(args))
+    end
+
+    table.insert(shared.callbacks, function()
+        roundManager.UpdateScore = oldUpdateScore
+    end)
+end
+
+local SaveManager = {} do
+    SaveManager.Ignore = {}
+    SaveManager.Parser = {
+        Toggle = {
+            Save = function(idx, object) 
+                return { type = 'Toggle', idx = idx, value = object.Value } 
+            end,
+            Load = function(idx, data)
+                if Toggles[idx] then 
+                    Toggles[idx]:SetValue(data.value)
+                end
+            end,
+        },
+        Slider = {
+            Save = function(idx, object)
+                return { type = 'Slider', idx = idx, value = tostring(object.Value) }
+            end,
+            Load = function(idx, data)
+                if Options[idx] then 
+                    Options[idx]:SetValue(data.value)
+                end
+            end,
+        },
+        Dropdown = {
+            Save = function(idx, object)
+                return { type = 'Dropdown', idx = idx, value = object.Value, mutli = object.Multi }
+            end,
+            Load = function(idx, data)
+                if Options[idx] then 
+                    Options[idx]:SetValue(data.value)
+                end
+            end,
+        },
+        ColorPicker = {
+            Save = function(idx, object)
+                return { type = 'ColorPicker', idx = idx, value = object.Value:ToHex() }
+            end,
+            Load = function(idx, data)
+                if Options[idx] then 
+                    Options[idx]:SetValueRGB(Color3.fromHex(data.value))
+                end
+            end,
+        },
+        KeyPicker = {
+            Save = function(idx, object)
+                return { type = 'KeyPicker', idx = idx, mode = object.Mode, key = object.Value }
+            end,
+            Load = function(idx, data)
+                if Options[idx] then 
+                    Options[idx]:SetValue({ data.key, data.mode })
+                end
+            end,
+        }
+    }
+
+    function SaveManager:Save(name)
+        local fullPath = 'funky_friday_autoplayer/configs/' .. name .. '.json'
+
+        local data = {
+            version = 2,
+            objects = {}
+        }
+
+        for idx, toggle in next, Toggles do
+            if self.Ignore[idx] then continue end
+            table.insert(data.objects, self.Parser[toggle.Type].Save(idx, toggle))
+        end
+
+        for idx, option in next, Options do
+            if not self.Parser[option.Type] then continue end
+            if self.Ignore[idx] then continue end
+
+            table.insert(data.objects, self.Parser[option.Type].Save(idx, option))
+        end 
+
+        local success, encoded = pcall(httpService.JSONEncode, httpService, data)
+        if not success then
+            return false, 'failed to encode data'
+        end
+
+        writefile(fullPath, encoded)
+        return true
+    end
+
+    function SaveManager:Load(name)
+        local file = 'funky_friday_autoplayer/configs/' .. name .. '.json'
+        if not isfile(file) then return false, 'invalid file' end
+
+        local success, decoded = pcall(httpService.JSONDecode, httpService, readfile(file))
+        if not success then return false, 'decode error' end
+        if decoded.version ~= 2 then return false, 'invalid version' end
+
+        for _, option in next, decoded.objects do
+            if self.Parser[option.type] then
+                self.Parser[option.type].Load(option.idx, option)
+            end
+        end
+
+        return true
+    end
+
+    function SaveManager.Refresh()
+        local list = listfiles('funky_friday_autoplayer/configs')
+
+        local out = {}
+        for i = 1, #list do
+            local file = list[i]
+            if file:sub(-5) == '.json' then
+                -- i hate this but it has to be done ...
+
+                local pos = file:find('.json', 1, true)
+                local start = pos
+
+                local char = file:sub(pos, pos)
+                while char ~= '/' and char ~= '\\' and char ~= '' do
+                    pos = pos - 1
+                    char = file:sub(pos, pos)
+                end
+
+                if char == '/' or char == '\\' then
+                    table.insert(out, file:sub(pos + 1, start - 1))
+                end
+            end
+        end
+        
+        Options.ConfigList.Values = out;
+        Options.ConfigList:SetValues()
+        Options.ConfigList:Display()
+
+        return out
+    end
+
+    function SaveManager:Delete(name)
+        local file = 'funky_friday_autoplayer/configs/' .. name .. '.json'
+        if not isfile(file) then return false, string.format('Config %q does not exist', name) end
+
+        local succ, err = pcall(delfile, file)
+        if not succ then
+            return false, string.format('error occured during file deletion: %s', err)
+        end
+
+        return true
+    end
+
+    function SaveManager:SetIgnoreIndexes(list)
+        for i = 1, #list do 
+            table.insert(self.Ignore, list[i])
+        end
+    end
+
+    function SaveManager.Check()
+        local list = listfiles('funky_friday_autoplayer/configs')
+
+        for _, file in next, list do
+            if isfolder(file) then continue end
+
+            local data = readfile(file)
+            local success, decoded = pcall(httpService.JSONDecode, httpService, data)
+
+            if success and type(decoded) == 'table' and decoded.version ~= 2 then
+                pcall(delfile, file)
+            end
+        end
+    end
+end
+
+local Window = UI:CreateWindow({
+    Title = string.format('funky friday autoplayer - version %s | updated: %s', metadata.version, metadata.updated),
+    AutoShow = true,
+    
+    Center = true,
+    Size = UDim2.fromOffset(550, 627),
+})
+
+local Tabs = {}
+local Groups = {}
+
+Tabs.Main = Window:AddTab('Main')
+Tabs.Miscellaneous = Window:AddTab('Miscellaneous')
+
+Groups.Autoplayer = Tabs.Main:AddLeftGroupbox('Autoplayer')
+    Groups.Autoplayer:AddToggle('Autoplayer', { Text = 'Autoplayer' }):AddKeyPicker('AutoplayerBind', { Default = 'End', NoUI = true, SyncToggleState = true })
+    Groups.Autoplayer:AddDropdown('PressMode', {
+        Text = 'Input mode', 
+        Compact = true, 
+        Default = 'firesignal', 
+        Values = { 'firesignal', 'virtual input' }, 
+        Tooltip = 'Input method used to press arrows.\n* firesignal: calls input functions directly.\n* virtual input: emulates key presses. use if "firesignal" does not work.', 
+    })
+
+Groups.HitChances = Tabs.Main:AddLeftGroupbox('Hit chances')
+    Groups.HitChances:AddDropdown('AutoplayerMode', { 
+        Text = 'Autoplayer mode', 
+        Compact = true, 
+        Default = 1, 
+        Values = { 'Automatic', 'Manual' },
+        Tooltip = 'Mode to use for deciding when to hit notes.\n* Automatic: hits notes based on chance sliders\n* Manual: hits notes based on held keybinds',
+    })
+
+    Groups.HitChances:AddSlider('SickChance',   { Text = 'Sick chance', Min = 0, Max = 100, Default = 100, Suffix = '%', Rounding = 0, Compact = true })
+    Groups.HitChances:AddSlider('GoodChance',   { Text = 'Good chance', Min = 0, Max = 100, Default = 0, Suffix = '%', Rounding = 0, Compact = true })
+    Groups.HitChances:AddSlider('OkChance',     { Text = 'Ok chance',   Min = 0, Max = 100, Default = 0, Suffix = '%', Rounding = 0, Compact = true })
+    Groups.HitChances:AddSlider('BadChance',    { Text = 'Bad chance',  Min = 0, Max = 100, Default = 0, Suffix = '%', Rounding = 0, Compact = true })
+    Groups.HitChances:AddSlider('MissChance',   { Text = 'Miss chance', Min = 0, Max = 100, Default = 0, Suffix = '%', Rounding = 0, Compact = true })
+
+Groups.HitTiming = Tabs.Main:AddLeftGroupbox('Hit timing')
+    Groups.HitTiming:AddDropdown('DelayMode', { 
+        Text = 'Delay mode', 
+        Default = 1, 
+        Values = { 'Manual', 'Random' },
+        Tooltip = 'Adjustable timing for when to release notes.\n* Manual releases the note after a fixed amount of time.\n* Random releases the note after a random amount of time.', 
+    })
+
+    Groups.HitTiming:AddLabel('Manual delay')
+    Groups.HitTiming:AddSlider('ReleaseDelay',   { Text = 'Note delay', Min = 0, Max = 500, Default = 20, Rounding = 0, Compact = true, Suffix = 'ms' })
+    Groups.HitTiming:AddSlider('HeldDelay',      { Text = 'Held note delay', Min = -20, Max = 100, Default = 0, Rounding = 0, Compact = true, Suffix = 'ms' })
+        
+    Groups.HitTiming:AddLabel('Random delay')
+    Groups.HitTiming:AddSlider('NoteDelayMin',   { Text = 'Min note delay', Min = 0, Max = 100, Default = 0,    Rounding = 0, Compact = true, Suffix = 'ms' })
+    Groups.HitTiming:AddSlider('NoteDelayMax',   { Text = 'Max note delay', Min = 0, Max = 500, Default = 20,   Rounding = 0, Compact = true, Suffix = 'ms' })
+    
+    Groups.HitTiming:AddSlider('HeldDelayMin',   { Text = 'Min held note delay', Min = 0, Max = 100, Default = 0,   Rounding = 0, Compact = true, Suffix = 'ms' })
+    Groups.HitTiming:AddSlider('HeldDelayMax',   { Text = 'Max held note delay', Min = 0, Max = 500, Default = 20,  Rounding = 0, Compact = true, Suffix = 'ms' })
+
+Groups.Unlockables = Tabs.Main:AddRightGroupbox('Unlockables')
+    Groups.Unlockables:AddButton('Unlock developer notes', ActivateUnlockables)
+
+Groups.Keybinds = Tabs.Main:AddRightGroupbox('Keybinds')
+    Groups.Keybinds:AddLabel('Sick'):AddKeyPicker('SickBind', { Default = 'One', NoUI = true })
+    Groups.Keybinds:AddLabel('Good'):AddKeyPicker('GoodBind', { Default = 'Two', NoUI = true })
+    Groups.Keybinds:AddLabel('Ok'):AddKeyPicker('OkayBind', { Default = 'Three', NoUI = true })
+    Groups.Keybinds:AddLabel('Bad'):AddKeyPicker('BadBind', { Default = 'Four', NoUI = true })
+
+Groups.Configs = Tabs.Miscellaneous:AddRightGroupbox('Configs')
+Groups.Credits = Tabs.Miscellaneous:AddRightGroupbox('Credits')
+    Groups.Credits:AddLabel('<font color="#3da5ff">wally</font> - script')
+    Groups.Credits:AddLabel('<font color="#de6cff">Sezei</font> - contributor')
+    Groups.Credits:AddLabel('Inori - ui library')
+    Groups.Credits:AddLabel('Jan - old ui library')
+
+
+Groups.Misc = Tabs.Miscellaneous:AddRightGroupbox('Miscellaneous')
+    Groups.Misc:AddLabel(metadata.message or 'no message found!', true)
+
+    Groups.Misc:AddDivider()
+    Groups.Misc:AddButton('Unload script', function() pcall(shared._unload) end)
+    Groups.Misc:AddButton('Copy discord', function()
+        if pcall(setclipboard, "https://wally.cool/discord") then
+            UI:Notify('Successfully copied discord link to your clipboard!', 5)
+        end
+    end)
+
+    Groups.Misc:AddLabel('Menu toggle'):AddKeyPicker('MenuToggle', { Default = 'Delete', NoUI = true })
+
+    UI.ToggleKeybind = Options.MenuToggle
+
+if type(readfile) == 'function' and type(writefile) == 'function' and type(makefolder) == 'function' and type(isfolder) == 'function' then
+    makefolder('funky_friday_autoplayer')
+    makefolder('funky_friday_autoplayer\\configs')
+
+    Groups.Configs:AddDropdown('ConfigList', { Text = 'Config list', Values = {} })
+    Groups.Configs:AddInput('ConfigName',    { Text = 'Config name' })
+
+    Groups.Configs:AddDivider()
+
+    Groups.Configs:AddButton('Save config', function()
+        local name = Options.ConfigName.Value;
+        if name:gsub(' ', '') == '' then
+            return UI:Notify('Invalid config name.', 3)
+        end
+
+        local success, err = SaveManager:Save(name)
+        if not success then
+            return UI:Notify(tostring(err), 5)
+        end
+
+        UI:Notify(string.format('Saved config %q', name), 5)
+        task.defer(SaveManager.Refresh)
+    end)
+
+    Groups.Configs:AddButton('Load', function()
+        local name = Options.ConfigList.Value
+        local success, err = SaveManager:Load(name)
+        if not success then
+            return UI:Notify(tostring(err), 5)
+        end
+
+        UI:Notify(string.format('Loaded config %q', name), 5)
+    end):AddButton('Delete', function()
+        local name = Options.ConfigList.Value
+        if name:gsub(' ', '') == '' then
+            return UI:Notify('Invalid config name.', 3)
+        end
+
+        local success, err = SaveManager:Delete(name)
+        if not success then
+            return UI:Notify(tostring(err), 5)
+        end
+
+        UI:Notify(string.format('Deleted config %q', name), 5)
+
+        task.spawn(Options.ConfigList.SetValue, Options.ConfigList, nil)
+        task.defer(SaveManager.Refresh)
+    end)
+
+    Groups.Configs:AddButton('Refresh list', SaveManager.Refresh)
+
+    task.defer(SaveManager.Refresh)
+    task.defer(SaveManager.Check)
+else
+    Groups.Configs:AddLabel('Your exploit is missing file functions so you are unable to use configs.', true)
+    --UI:Notify('Failed to create configs tab due to your exploit missing certain file functions.', 2)
+end
+
+-- Themes
+do
+    local latestThemeIndex = 0
+    for i, theme in next, themeManager.BuiltInThemes do
+        if theme[1] > latestThemeIndex then
+            latestThemeIndex = theme[1]
+        end
+    end
+
+    latestThemeIndex = latestThemeIndex + 1
+
+    local linoriaTheme = themeManager.BuiltInThemes.Default[2]
+    local funkyFridayTheme = table.clone(themeManager.BuiltInThemes.Default[2])
+
+    funkyFridayTheme.AccentColor = Color3.fromRGB(255, 65, 65):ToHex()
+
+    themeManager.BuiltInThemes['Linoria'] = { latestThemeIndex, linoriaTheme }
+    themeManager.BuiltInThemes['Default'] = { 1, funkyFridayTheme }
+
+    themeManager:SetLibrary(UI)
+    themeManager:SetFolder('funky_friday_autoplayer')
+    themeManager:ApplyToGroupbox(Tabs.Miscellaneous:AddLeftGroupbox('Themes'))
+
+    SaveManager:SetIgnoreIndexes({ 
+        "BackgroundColor", "MainColor", "AccentColor", "OutlineColor", "FontColor", -- themes
+        "ThemeManager_ThemeList", 'ThemeManager_CustomThemeList', 'ThemeManager_CustomThemeName', -- themes
+    })
+end
+
+UI:Notify(string.format('Loaded script in %.4f second(s)!', tick() - start), 3)
+	----TextButton26----
+	--UICorner27--
+	local UICorner27 = Instance.new("UICorner",TextButton26)
+	UICorner27["CornerRadius"] = UDim.new(0, 4)
+	----UICorner27----
+	--TextButton28--
+	local TextButton28 = Instance.new("TextButton",Frame21)
+	TextButton28["TextWrapped"] = true
+	TextButton28["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton28["Text"] = "Fly"
+	TextButton28["Font"] = Enum.Font.FredokaOne
+	TextButton28["Name"] = "fly"
+	TextButton28["Position"] = UDim2.new(0.524162173, 0, 0.0761356354, 0)
+	TextButton28["TextSize"] = 14
+	TextButton28["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton28["TextScaled"] = true
+	TextButton28["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton28.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/mobilefly/main/mobile-fly"), true))()
+	end)
+	----TextButton28----
+	--UICorner29--
+	local UICorner29 = Instance.new("UICorner",TextButton28)
+	UICorner29["CornerRadius"] = UDim.new(0, 4)
+	----UICorner29----
+	--TextButton30--
+	local TextButton30 = Instance.new("TextButton",Frame21)
+	TextButton30["TextWrapped"] = true
+	TextButton30["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton30["Text"] = "Rejoin"
+	TextButton30["Font"] = Enum.Font.FredokaOne
+	TextButton30["Name"] = "Rejoin"
+	TextButton30["Position"] = UDim2.new(0.0177158862, 0, 0.319704175, 0)
+	TextButton30["TextSize"] = 14
+	TextButton30["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton30["TextScaled"] = true
+	TextButton30["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton30.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/rejoin/main/README.md"), true))()
+	end)
+	----TextButton30----
+	--UICorner31--
+	local UICorner31 = Instance.new("UICorner",TextButton30)
+	UICorner31["CornerRadius"] = UDim.new(0, 4)
+	----UICorner31----
+	--TextButton32--
+	local TextButton32 = Instance.new("TextButton",Frame21)
+	TextButton32["TextWrapped"] = true
+	TextButton32["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton32["Text"] = "Q Tool"
+	TextButton32["Font"] = Enum.Font.FredokaOne
+	TextButton32["Name"] = "Q Tool"
+	TextButton32["Position"] = UDim2.new(0.524162114, 0, 0.560050011, 0)
+	TextButton32["TextSize"] = 14
+	TextButton32["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton32["TextScaled"] = true
+	TextButton32["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton32.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/Q-tool/main/README.md"), true))()
+	end)
+	----TextButton32----
+	--UICorner33--
+	local UICorner33 = Instance.new("UICorner",TextButton32)
+	UICorner33["CornerRadius"] = UDim.new(0, 4)
+	----UICorner33----
+	--TextButton34--
+	local TextButton34 = Instance.new("TextButton",Frame21)
+	TextButton34["TextWrapped"] = true
+	TextButton34["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton34["Text"] = "Dahood Fly"
+	TextButton34["Font"] = Enum.Font.FredokaOne
+	TextButton34["Name"] = "DH fly"
+	TextButton34["Position"] = UDim2.new(0.0177158862, 0, 0.201745421, 0)
+	TextButton34["TextSize"] = 14
+	TextButton34["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton34["TextScaled"] = true
+	TextButton34["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton34.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/gJfKgLra"))();
+	end)
+	----TextButton34----
+	--UICorner35--
+	local UICorner35 = Instance.new("UICorner",TextButton34)
+	UICorner35["CornerRadius"] = UDim.new(0, 4)
+	----UICorner35----
+	--TextButton36--
+	local TextButton36 = Instance.new("TextButton",Frame21)
+	TextButton36["TextWrapped"] = true
+	TextButton36["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton36["Text"] = "Anti AFK"
+	TextButton36["Font"] = Enum.Font.FredokaOne
+	TextButton36["Name"] = "Anti AFK"
+	TextButton36["Position"] = UDim2.new(0.524162173, 0, 0.194776773, 0)
+	TextButton36["TextSize"] = 14
+	TextButton36["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton36["TextScaled"] = true
+	TextButton36["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton36.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Proxylol/OtherScripts/main/AntiAfk.lua'),true))()
+	end)
+	----TextButton36----
+	--UICorner37--
+	local UICorner37 = Instance.new("UICorner",TextButton36)
+	UICorner37["CornerRadius"] = UDim.new(0, 4)
+	----UICorner37----
+	--TextButton38--
+	local TextButton38 = Instance.new("TextButton",Frame21)
+	TextButton38["TextWrapped"] = true
+	TextButton38["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton38["Text"] = "Auto clicker"
+	TextButton38["Font"] = Enum.Font.FredokaOne
+	TextButton38["Name"] = "Auto clicker"
+	TextButton38["Position"] = UDim2.new(0.523632228, 0, 0.433573484, 0)
+	TextButton38["TextSize"] = 14
+	TextButton38["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton38["TextScaled"] = true
+	TextButton38["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton38.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/auto-clicker/main/README.md"), true))()
+	end)
+	----TextButton38----
+	--UICorner39--
+	local UICorner39 = Instance.new("UICorner",TextButton38)
+	UICorner39["CornerRadius"] = UDim.new(0, 4)
+	----UICorner39----
+	--TextButton40--
+	local TextButton40 = Instance.new("TextButton",Frame21)
+	TextButton40["TextWrapped"] = true
+	TextButton40["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton40["Text"] = "CFrame"
+	TextButton40["Font"] = Enum.Font.FredokaOne
+	TextButton40["Name"] = "Cframe"
+	TextButton40["Position"] = UDim2.new(0.524162114, 0, 0.309251189, 0)
+	TextButton40["TextSize"] = 14
+	TextButton40["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton40["TextScaled"] = true
+	TextButton40["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton40.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/speed/main/speed"), true))()
+	end)
+	----TextButton40----
+	--UICorner41--
+	local UICorner41 = Instance.new("UICorner",TextButton40)
+	UICorner41["CornerRadius"] = UDim.new(0, 4)
+	----UICorner41----
+	--TextButton42--
+	local TextButton42 = Instance.new("TextButton",Frame21)
+	TextButton42["TextWrapped"] = true
+	TextButton42["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton42["Text"] = "Auto Piano"
+	TextButton42["Font"] = Enum.Font.FredokaOne
+	TextButton42["Name"] = "Auto Piano"
+	TextButton42["Position"] = UDim2.new(0.0171860009, 0, 0.560620427, 0)
+	TextButton42["TextSize"] = 14
+	TextButton42["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton42["TextScaled"] = true
+	TextButton42["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton42.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/3.2Lol/main/AutoPiano3-2.lua", true))()
+	end)
+	----TextButton42----
+	--UICorner43--
+	local UICorner43 = Instance.new("UICorner",TextButton42)
+	UICorner43["CornerRadius"] = UDim.new(0, 4)
+	----UICorner43----
+	--Frame44--
+	local Frame44 = Instance.new("Frame",Frame11)
+	Frame44["Visible"] = false
+	Frame44["Name"] = "Settings"
+	Frame44["Position"] = UDim2.new(0.0204142872, 0, -0.0018065616, 0)
+	Frame44["Size"] = UDim2.new(0, 253, 0, 309)
+	Frame44["BorderSizePixel"] = 0
+	Frame44["BackgroundColor3"] = Color3.new(0.0588235, 0.0588235, 0.0588235)
+	----Frame44----
+	--UICorner45--
+	local UICorner45 = Instance.new("UICorner",Frame44)
+	UICorner45["CornerRadius"] = UDim.new(0, 4)
+	----UICorner45----
+	--TextLabel46--
+	local TextLabel46 = Instance.new("TextLabel",Frame44)
+	TextLabel46["TextWrapped"] = true
+	TextLabel46["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel46["Text"] = "Dahood Scripts"
+	TextLabel46["Font"] = Enum.Font.FredokaOne
+	TextLabel46["BackgroundTransparency"] = 1
+	TextLabel46["Position"] = UDim2.new(0.11118713, 0, -0.0032258064, 0)
+	TextLabel46["Size"] = UDim2.new(0, 200, 0, 15)
+	TextLabel46["TextSize"] = 25
+	TextLabel46["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel46----
+	--TextButton47--
+	local TextButton47 = Instance.new("TextButton",Frame44)
+	TextButton47["TextWrapped"] = true
+	TextButton47["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton47["Text"] = "Swagmode"
+	TextButton47["Font"] = Enum.Font.FredokaOne
+	TextButton47["Name"] = "Swagmode"
+	TextButton47["Position"] = UDim2.new(0.0177158527, 0, 0.0796199292, 0)
+	TextButton47["TextSize"] = 14
+	TextButton47["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton47["TextScaled"] = true
+	TextButton47["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton47.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+	end)
+	----TextButton47----
+	--UICorner48--
+	local UICorner48 = Instance.new("UICorner",TextButton47)
+	UICorner48["CornerRadius"] = UDim.new(0, 4)
+	----UICorner48----
+	--TextButton49--
+	local TextButton49 = Instance.new("TextButton",Frame44)
+	TextButton49["TextWrapped"] = true
+	TextButton49["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton49["Text"] = "Ray X"
+	TextButton49["Font"] = Enum.Font.FredokaOne
+	TextButton49["Name"] = "Ray X"
+	TextButton49["Position"] = UDim2.new(0.524162173, 0, 0.0761356354, 0)
+	TextButton49["TextSize"] = 14
+	TextButton49["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton49["TextScaled"] = true
+	TextButton49["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton49.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+	end)
+	----TextButton49----
+	--UICorner50--
+	local UICorner50 = Instance.new("UICorner",TextButton49)
+	UICorner50["CornerRadius"] = UDim.new(0, 4)
+	----UICorner50----
+	--TextButton51--
+	local TextButton51 = Instance.new("TextButton",Frame44)
+	TextButton51["TextWrapped"] = true
+	TextButton51["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton51["Text"] = "Faded"
+	TextButton51["Font"] = Enum.Font.FredokaOne
+	TextButton51["Name"] = "Faded"
+	TextButton51["Position"] = UDim2.new(0.524162173, 0, 0.194776773, 0)
+	TextButton51["TextSize"] = 14
+	TextButton51["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton51["TextScaled"] = true
+	TextButton51["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton51.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+	end)
+	----TextButton51----
+	--UICorner52--
+	local UICorner52 = Instance.new("UICorner",TextButton51)
+	UICorner52["CornerRadius"] = UDim.new(0, 4)
+	----UICorner52----
+	--TextButton53--
+	local TextButton53 = Instance.new("TextButton",Frame44)
+	TextButton53["TextWrapped"] = true
+	TextButton53["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton53["Text"] = "Nyula"
+	TextButton53["Font"] = Enum.Font.FredokaOne
+	TextButton53["Name"] = "Nyula"
+	TextButton53["Position"] = UDim2.new(0.0177158862, 0, 0.201745421, 0)
+	TextButton53["TextSize"] = 14
+	TextButton53["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton53["TextScaled"] = true
+	TextButton53["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton53.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/nyulachan/nyula/main/nyuladhm"))()
+	end)
+	----TextButton53----
+	--UICorner54--
+	local UICorner54 = Instance.new("UICorner",TextButton53)
+	UICorner54["CornerRadius"] = UDim.new(0, 4)
+	----UICorner54----
+	--TextButton55--
+	local TextButton55 = Instance.new("TextButton",Frame44)
+	TextButton55["TextWrapped"] = true
+	TextButton55["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton55["Text"] = "Dark Hub"
+	TextButton55["Font"] = Enum.Font.FredokaOne
+	TextButton55["Name"] = "Dark Hub"
+	TextButton55["Position"] = UDim2.new(0.0138248019, 0, 0.311131179, 0)
+	TextButton55["TextSize"] = 14
+	TextButton55["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton55["TextScaled"] = true
+	TextButton55["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton55.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+	end)
+	----TextButton55----
+	--UICorner56--
+	local UICorner56 = Instance.new("UICorner",TextButton55)
+	UICorner56["CornerRadius"] = UDim.new(0, 4)
+	----UICorner56----
+	--TextButton57--
+	local TextButton57 = Instance.new("TextButton",Frame44)
+	TextButton57["TextWrapped"] = true
+	TextButton57["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton57["Text"] = "Nova"
+	TextButton57["Font"] = Enum.Font.FredokaOne
+	TextButton57["Name"] = "Nova"
+	TextButton57["Position"] = UDim2.new(0.520271122, 0, 0.3076469, 0)
+	TextButton57["TextSize"] = 14
+	TextButton57["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton57["TextScaled"] = true
+	TextButton57["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton57.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://icxy.xyz/NovaGui/NovaGui", true))()
+	end)
+	----TextButton57----
+	--UICorner58--
+	local UICorner58 = Instance.new("UICorner",TextButton57)
+	UICorner58["CornerRadius"] = UDim.new(0, 4)
+	----UICorner58----
+	--TextButton59--
+	local TextButton59 = Instance.new("TextButton",Frame44)
+	TextButton59["TextWrapped"] = true
+	TextButton59["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton59["Text"] = "Agent"
+	TextButton59["Font"] = Enum.Font.FredokaOne
+	TextButton59["Name"] = "Agent"
+	TextButton59["Position"] = UDim2.new(0.520271122, 0, 0.426288038, 0)
+	TextButton59["TextSize"] = 14
+	TextButton59["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton59["TextScaled"] = true
+	TextButton59["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton59.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/mrhackerman35297/AgentCC/main/Launch.lua"))()
+	end)
+	----TextButton59----
+	--UICorner60--
+	local UICorner60 = Instance.new("UICorner",TextButton59)
+	UICorner60["CornerRadius"] = UDim.new(0, 4)
+	----UICorner60----
+	--TextButton61--
+	local TextButton61 = Instance.new("TextButton",Frame44)
+	TextButton61["TextWrapped"] = true
+	TextButton61["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton61["Text"] = "Pluto"
+	TextButton61["Font"] = Enum.Font.FredokaOne
+	TextButton61["Name"] = "Pluto"
+	TextButton61["Position"] = UDim2.new(0.0177158862, 0, 0.426825821, 0)
+	TextButton61["TextSize"] = 14
+	TextButton61["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton61["TextScaled"] = true
+	TextButton61["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton61.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
+	end)
+	----TextButton61----
+	--UICorner62--
+	local UICorner62 = Instance.new("UICorner",TextButton61)
+	UICorner62["CornerRadius"] = UDim.new(0, 4)
+	----UICorner62----
+	--Frame63--
+	local Frame63 = Instance.new("Frame",Frame11)
+	Frame63["Visible"] = false
+	Frame63["Name"] = "Hub"
+	Frame63["Position"] = UDim2.new(0.0166120064, 0, -0.0018065616, 0)
+	Frame63["Size"] = UDim2.new(0, 257, 0, 311)
+	Frame63["BorderSizePixel"] = 0
+	Frame63["BackgroundColor3"] = Color3.new(0.0588235, 0.0588235, 0.0588235)
+	----Frame63----
+	--UICorner64--
+	local UICorner64 = Instance.new("UICorner",Frame63)
+	UICorner64["CornerRadius"] = UDim.new(0, 4)
+	----UICorner64----
+	--TextButton65--
+	local TextButton65 = Instance.new("TextButton",Frame63)
+	TextButton65["TextWrapped"] = true
+	TextButton65["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton65["Text"] = "Fart Race"
+	TextButton65["Font"] = Enum.Font.FredokaOne
+	TextButton65["Name"] = "Fart Race"
+	TextButton65["Position"] = UDim2.new(0.0177158862, 0, 0.201745421, 0)
+	TextButton65["TextSize"] = 14
+	TextButton65["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton65["TextScaled"] = true
+	TextButton65["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton65.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Utilities/main/Closed/Fart%20Race.lua"))()
+	end)
+	----TextButton65----
+	--UICorner66--
+	local UICorner66 = Instance.new("UICorner",TextButton65)
+	UICorner66["CornerRadius"] = UDim.new(0, 4)
+	----UICorner66----
+	--TextButton67--
+	local TextButton67 = Instance.new("TextButton",Frame63)
+	TextButton67["TextWrapped"] = true
+	TextButton67["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton67["Text"] = "Pet Simulater X"
+	TextButton67["Font"] = Enum.Font.FredokaOne
+	TextButton67["Name"] = "Pet Simulater X"
+	TextButton67["Position"] = UDim2.new(0.524162173, 0, 0.0761356354, 0)
+	TextButton67["TextSize"] = 14
+	TextButton67["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton67["TextScaled"] = true
+	TextButton67["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton67.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/petsimx", true))()
+	end)
+	----TextButton67----
+	--UICorner68--
+	local UICorner68 = Instance.new("UICorner",TextButton67)
+	UICorner68["CornerRadius"] = UDim.new(0, 4)
+	----UICorner68----
+	--TextButton69--
+	local TextButton69 = Instance.new("TextButton",Frame63)
+	TextButton69["TextWrapped"] = true
+	TextButton69["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton69["Text"] = "BloxFruit"
+	TextButton69["Font"] = Enum.Font.FredokaOne
+	TextButton69["Name"] = "BloxFruit"
+	TextButton69["Position"] = UDim2.new(0.524162173, 0, 0.194776773, 0)
+	TextButton69["TextSize"] = 14
+	TextButton69["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton69["TextScaled"] = true
+	TextButton69["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton69.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+	end)
+	----TextButton69----
+	--UICorner70--
+	local UICorner70 = Instance.new("UICorner",TextButton69)
+	UICorner70["CornerRadius"] = UDim.new(0, 4)
+	----UICorner70----
+	--TextButton71--
+	local TextButton71 = Instance.new("TextButton",Frame63)
+	TextButton71["TextWrapped"] = true
+	TextButton71["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton71["Text"] = "Punch a wall"
+	TextButton71["Font"] = Enum.Font.FredokaOne
+	TextButton71["Name"] = "Punch a wall"
+	TextButton71["Position"] = UDim2.new(0.0177158527, 0, 0.0796199292, 0)
+	TextButton71["TextSize"] = 14
+	TextButton71["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton71["TextScaled"] = true
+	TextButton71["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton71.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/F2B-HUB/F2B/main/Punch%20Wall%20Simulator"))()
+	end)
+	----TextButton71----
+	--UICorner72--
+	local UICorner72 = Instance.new("UICorner",TextButton71)
+	UICorner72["CornerRadius"] = UDim.new(0, 4)
+	----UICorner72----
+	--TextLabel73--
+	local TextLabel73 = Instance.new("TextLabel",Frame63)
+	TextLabel73["TextWrapped"] = true
+	TextLabel73["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel73["Text"] = "Scripts"
+	TextLabel73["Font"] = Enum.Font.FredokaOne
+	TextLabel73["BackgroundTransparency"] = 1
+	TextLabel73["Position"] = UDim2.new(0.11118713, 0, -0.0032258064, 0)
+	TextLabel73["Size"] = UDim2.new(0, 200, 0, 15)
+	TextLabel73["TextSize"] = 25
+	TextLabel73["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel73----
+	--TextButton74--
+	local TextButton74 = Instance.new("TextButton",Frame63)
+	TextButton74["TextWrapped"] = true
+	TextButton74["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton74["Text"] = "Five Duels"
+	TextButton74["Font"] = Enum.Font.FredokaOne
+	TextButton74["Name"] = "Five Duels"
+	TextButton74["Position"] = UDim2.new(0.0138248019, 0, 0.311131179, 0)
+	TextButton74["TextSize"] = 14
+	TextButton74["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton74["TextScaled"] = true
+	TextButton74["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton74.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/nyulachan/nyula/main/nyuladhm"))()
+	end)
+	----TextButton74----
+	--UICorner75--
+	local UICorner75 = Instance.new("UICorner",TextButton74)
+	UICorner75["CornerRadius"] = UDim.new(0, 4)
+	----UICorner75----
+	--TextButton76--
+	local TextButton76 = Instance.new("TextButton",Frame63)
+	TextButton76["TextWrapped"] = true
+	TextButton76["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton76["Text"] = "Murder Mystery 2 "
+	TextButton76["Font"] = Enum.Font.FredokaOne
+	TextButton76["Name"] = "Murder Mystery 2"
+	TextButton76["Position"] = UDim2.new(0.0177158862, 0, 0.426825821, 0)
+	TextButton76["TextSize"] = 14
+	TextButton76["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton76["TextScaled"] = true
+	TextButton76["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton76.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
+	end)
+	----TextButton76----
+	--UICorner77--
+	local UICorner77 = Instance.new("UICorner",TextButton76)
+	UICorner77["CornerRadius"] = UDim.new(0, 4)
+	----UICorner77----
+	--TextButton78--
+	local TextButton78 = Instance.new("TextButton",Frame63)
+	TextButton78["TextWrapped"] = true
+	TextButton78["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton78["Text"] = "Anime Adventures"
+	TextButton78["Font"] = Enum.Font.FredokaOne
+	TextButton78["Name"] = "Anime Adventures"
+	TextButton78["Position"] = UDim2.new(0.520271122, 0, 0.426288038, 0)
+	TextButton78["TextSize"] = 14
+	TextButton78["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton78["TextScaled"] = true
+	TextButton78["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton78.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ArponAG/Scripts/main/AnimeAdventures_v2__Beta.lua"))()
+	end)
+	----TextButton78----
+	--UICorner79--
+	local UICorner79 = Instance.new("UICorner",TextButton78)
+	UICorner79["CornerRadius"] = UDim.new(0, 4)
+	----UICorner79----
+	--TextButton80--
+	local TextButton80 = Instance.new("TextButton",Frame63)
+	TextButton80["TextWrapped"] = true
+	TextButton80["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton80["Text"] = "Rainbow Friends"
+	TextButton80["Font"] = Enum.Font.FredokaOne
+	TextButton80["Name"] = "Rainbow Friends"
+	TextButton80["Position"] = UDim2.new(0.520271122, 0, 0.3076469, 0)
+	TextButton80["TextSize"] = 14
+	TextButton80["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton80["TextScaled"] = true
+	TextButton80["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton80.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+	----TextButton80----
+	--UICorner81--
+	local UICorner81 = Instance.new("UICorner",TextButton80)
+	UICorner81["CornerRadius"] = UDim.new(0, 4)
+	----UICorner81----
+	--TextButton82--
+	local TextButton82 = Instance.new("TextButton",Frame63)
+	TextButton82["TextWrapped"] = true
+	TextButton82["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton82["Text"] = "Big Paintball"
+	TextButton82["Font"] = Enum.Font.FredokaOne
+	TextButton82["Name"] = "Big Paintball"
+	TextButton82["Position"] = UDim2.new(0.0177158527, 0, 0.539427042, 0)
+	TextButton82["TextSize"] = 14
+	TextButton82["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton82["TextScaled"] = true
+	TextButton82["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton82.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end)
+	----TextButton82----
+	--UICorner83--
+	local UICorner83 = Instance.new("UICorner",TextButton82)
+	UICorner83["CornerRadius"] = UDim.new(0, 4)
+	----UICorner83----
+	--TextButton84--
+	local TextButton84 = Instance.new("TextButton",Frame63)
+	TextButton84["TextWrapped"] = true
+	TextButton84["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton84["Text"] = "Arsenal"
+	TextButton84["Font"] = Enum.Font.FredokaOne
+	TextButton84["Name"] = "Arsenal"
+	TextButton84["Position"] = UDim2.new(0.0177158862, 0, 0.661552548, 0)
+	TextButton84["TextSize"] = 14
+	TextButton84["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton84["TextScaled"] = true
+	TextButton84["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton84.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
+	end)
+	----TextButton84----
+	--UICorner85--
+	local UICorner85 = Instance.new("UICorner",TextButton84)
+	UICorner85["CornerRadius"] = UDim.new(0, 4)
+	----UICorner85----
+	--TextButton86--
+	local TextButton86 = Instance.new("TextButton",Frame63)
+	TextButton86["TextWrapped"] = true
+	TextButton86["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton86["Text"] = "Yeet a Friend"
+	TextButton86["Font"] = Enum.Font.FredokaOne
+	TextButton86["Name"] = "Yeet a Friend"
+	TextButton86["Position"] = UDim2.new(0.524162173, 0, 0.654583871, 0)
+	TextButton86["TextSize"] = 14
+	TextButton86["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton86["TextScaled"] = true
+	TextButton86["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton86.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Utilities/main/Closed/Yeet%20A%20Friend.lua"))()
+	end)
+	----TextButton86----
+	--UICorner87--
+	local UICorner87 = Instance.new("UICorner",TextButton86)
+	UICorner87["CornerRadius"] = UDim.new(0, 4)
+	----UICorner87----
+	--TextButton88--
+	local TextButton88 = Instance.new("TextButton",Frame63)
+	TextButton88["TextWrapped"] = true
+	TextButton88["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton88["Text"] = "Drive World"
+	TextButton88["Font"] = Enum.Font.FredokaOne
+	TextButton88["Name"] = "Drive World"
+	TextButton88["Position"] = UDim2.new(0.524162173, 0, 0.535942733, 0)
+	TextButton88["TextSize"] = 14
+	TextButton88["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton88["TextScaled"] = true
+	TextButton88["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton88.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BrickPlayz/Public-Scripts/main/DriveWorld.lua"))()
+	end)
+	----TextButton88----
+	--UICorner89--
+	local UICorner89 = Instance.new("UICorner",TextButton88)
+	UICorner89["CornerRadius"] = UDim.new(0, 4)
+	----UICorner89----
+	--Frame90--
+	local Frame90 = Instance.new("Frame",Frame11)
+	Frame90["Visible"] = false
+	Frame90["Name"] = "Credits"
+	Frame90["Position"] = UDim2.new(0.0204142872, 0, -0.0018065616, 0)
+	Frame90["Size"] = UDim2.new(0, 259, 0, 310)
+	Frame90["BorderSizePixel"] = 0
+	Frame90["BackgroundColor3"] = Color3.new(0.0588235, 0.0588235, 0.0588235)
+	----Frame90----
+	--UICorner91--
+	local UICorner91 = Instance.new("UICorner",Frame90)
+	UICorner91["CornerRadius"] = UDim.new(0, 4)
+	----UICorner91----
+	--TextLabel92--
+	local TextLabel92 = Instance.new("TextLabel",Frame90)
+	TextLabel92["TextWrapped"] = true
+	TextLabel92["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel92["Text"] = "Dahood Locks"
+	TextLabel92["Font"] = Enum.Font.FredokaOne
+	TextLabel92["BackgroundTransparency"] = 1
+	TextLabel92["Position"] = UDim2.new(0.11118713, 0, -0.0032258064, 0)
+	TextLabel92["Size"] = UDim2.new(0, 200, 0, 15)
+	TextLabel92["TextSize"] = 25
+	TextLabel92["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel92----
+	--TextButton93--
+	local TextButton93 = Instance.new("TextButton",Frame90)
+	TextButton93["TextWrapped"] = true
+	TextButton93["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton93["Text"] = "Blue Lock"
+	TextButton93["Font"] = Enum.Font.FredokaOne
+	TextButton93["Name"] = "Blue Lock"
+	TextButton93["Position"] = UDim2.new(0.0177158527, 0, 0.0796199292, 0)
+	TextButton93["TextSize"] = 14
+	TextButton93["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton93["TextScaled"] = true
+	TextButton93["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton93.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/MOON-GOD-SCRIPTS/main/Ryzzchips%20tool"))();
+	end)
+	----TextButton93----
+	--UICorner94--
+	local UICorner94 = Instance.new("UICorner",TextButton93)
+	UICorner94["CornerRadius"] = UDim.new(0, 4)
+	----UICorner94----
+	--TextButton95--
+	local TextButton95 = Instance.new("TextButton",Frame90)
+	TextButton95["TextWrapped"] = true
+	TextButton95["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton95["Text"] = "Purple lock"
+	TextButton95["Font"] = Enum.Font.FredokaOne
+	TextButton95["Name"] = "Purple lock"
+	TextButton95["Position"] = UDim2.new(0.524162173, 0, 0.0761356354, 0)
+	TextButton95["TextSize"] = 14
+	TextButton95["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton95["TextScaled"] = true
+	TextButton95["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton95.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/iNd3xTPv"))()
+	end)
+	----TextButton95----
+	--UICorner96--
+	local UICorner96 = Instance.new("UICorner",TextButton95)
+	UICorner96["CornerRadius"] = UDim.new(0, 4)
+	----UICorner96----
+	--TextButton97--
+	local TextButton97 = Instance.new("TextButton",Frame90)
+	TextButton97["TextWrapped"] = true
+	TextButton97["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton97["Text"] = "Mobile Camlock"
+	TextButton97["Font"] = Enum.Font.FredokaOne
+	TextButton97["Name"] = "Mobile Camlock"
+	TextButton97["Position"] = UDim2.new(0.0177158862, 0, 0.201745421, 0)
+	TextButton97["TextSize"] = 14
+	TextButton97["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton97["TextScaled"] = true
+	TextButton97["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton97.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/mobile/main/camlock"), true))()
+	end)
+	----TextButton97----
+	--UICorner98--
+	local UICorner98 = Instance.new("UICorner",TextButton97)
+	UICorner98["CornerRadius"] = UDim.new(0, 4)
+	----UICorner98----
+	--TextButton99--
+	local TextButton99 = Instance.new("TextButton",Frame90)
+	TextButton99["TextWrapped"] = true
+	TextButton99["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton99["Text"] = "Pc Camlock (Q)"
+	TextButton99["Font"] = Enum.Font.FredokaOne
+	TextButton99["Name"] = "Pc Camlock (Q)"
+	TextButton99["Position"] = UDim2.new(0.524162173, 0, 0.194776773, 0)
+	TextButton99["TextSize"] = 14
+	TextButton99["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton99["TextScaled"] = true
+	TextButton99["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton99.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/camlock/main/camlock"), true))()
+	end)
+	----TextButton99----
+	--UICorner100--
+	local UICorner100 = Instance.new("UICorner",TextButton99)
+	UICorner100["CornerRadius"] = UDim.new(0, 4)
+	----UICorner100----
+	--TextButton101--
+	local TextButton101 = Instance.new("TextButton",Frame90)
+	TextButton101["TextWrapped"] = true
+	TextButton101["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton101["Text"] = "Mobile Anti-Lock"
+	TextButton101["Font"] = Enum.Font.FredokaOne
+	TextButton101["Name"] = "Mobile Anti-Lock"
+	TextButton101["Position"] = UDim2.new(0.0138248019, 0, 0.311131179, 0)
+	TextButton101["TextSize"] = 14
+	TextButton101["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton101["TextScaled"] = true
+	TextButton101["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton101.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/wenny69420/KirbswareScripts/main/MobileV3'))()
+	end)
+	----TextButton101----
+	--UICorner102--
+	local UICorner102 = Instance.new("UICorner",TextButton101)
+	UICorner102["CornerRadius"] = UDim.new(0, 4)
+	----UICorner102----
+	--TextButton103--
+	local TextButton103 = Instance.new("TextButton",Frame90)
+	TextButton103["TextWrapped"] = true
+	TextButton103["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton103["Text"] = "Pc Anti-Lock"
+	TextButton103["Font"] = Enum.Font.FredokaOne
+	TextButton103["Name"] = "Pc Anti-Lock"
+	TextButton103["Position"] = UDim2.new(0.520271122, 0, 0.3076469, 0)
+	TextButton103["TextSize"] = 14
+	TextButton103["Size"] = UDim2.new(0, 116, 0, 27)
+	TextButton103["TextScaled"] = true
+	TextButton103["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton103.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/anti-lock/main/anti-lock"), true))()
+	end)
+	----TextButton103----
+	--UICorner104--
+	local UICorner104 = Instance.new("UICorner",TextButton103)
+	UICorner104["CornerRadius"] = UDim.new(0, 4)
+	----UICorner104----
+	--UICorner105--
+	local UICorner105 = Instance.new("UICorner",Frame3)
+	UICorner105["CornerRadius"] = UDim.new(0, 4)
+	----UICorner105----
+	--Script106--
+	local Script106 = Instance.new("Script",Frame3)
+	----Script106----
+	--Script107--
+	local Script107 = Instance.new("Script",Frame3)
+	Script107["Name"] = "Dragify"
+	----Script107----
+	--Frame108--
+	local Frame108 = Instance.new("Frame",Frame3)
+	Frame108["BackgroundTransparency"] = 1
+	Frame108["Position"] = UDim2.new(0, 434, 0, 4)
+	Frame108["Size"] = UDim2.new(0, 102, 0, 284)
+	Frame108["Name"] = "Side"
+	Frame108["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame108----
+	--TextButton109--
+	local TextButton109 = Instance.new("TextButton",Frame108)
+	TextButton109["TextWrapped"] = true
+	TextButton109["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton109["Text"] = "Discord Invite"
+	TextButton109["Font"] = Enum.Font.FredokaOne
+	TextButton109["Name"] = "discord"
+	TextButton109["Position"] = UDim2.new(0.00271790847, 0, 0.430786699, 0)
+	TextButton109["TextSize"] = 14
+	TextButton109["Size"] = UDim2.new(0, 109, 0, 24)
+	TextButton109["TextScaled"] = true
+	TextButton109["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton109.MouseButton1Click:Connect(function()
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Cheated Invite Copied"; Text = "Pate into webrowser to join"; Icon = ""})
+		wait(0.5)
+		setclipboard("https://discord.gg/9pgKnAC8Bp")
+	end)
+	----TextButton109----
+	--UICorner110--
+	local UICorner110 = Instance.new("UICorner",TextButton109)
+	UICorner110["CornerRadius"] = UDim.new(0, 4)
+	----UICorner110----
+	--TextButton111--
+	local TextButton111 = Instance.new("TextButton",Frame108)
+	TextButton111["TextWrapped"] = true
+	TextButton111["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton111["Text"] = "walkspeed"
+	TextButton111["Font"] = Enum.Font.FredokaOne
+	TextButton111["Name"] = "walkspeed"
+	TextButton111["Position"] = UDim2.new(-0.00598198548, 0, 0.560406029, 0)
+	TextButton111["TextSize"] = 14
+	TextButton111["Size"] = UDim2.new(0, 109, 0, 24)
+	TextButton111["TextScaled"] = true
+	TextButton111["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton111.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/walkseed/main/README.md"), true))()
+	end)
+	----TextButton111----
+	--UICorner112--
+	local UICorner112 = Instance.new("UICorner",TextButton111)
+	UICorner112["CornerRadius"] = UDim.new(0, 4)
+	----UICorner112----
+	--TextButton113--
+	local TextButton113 = Instance.new("TextButton",Frame108)
+	TextButton113["TextWrapped"] = true
+	TextButton113["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton113["Text"] = "Infinite Jump"
+	TextButton113["Font"] = Enum.Font.FredokaOne
+	TextButton113["Name"] = "Infinite Jump"
+	TextButton113["Position"] = UDim2.new(-0.0111550745, 0, 0.689379275, 0)
+	TextButton113["TextSize"] = 14
+	TextButton113["Size"] = UDim2.new(0, 109, 0, 24)
+	TextButton113["TextScaled"] = true
+	TextButton113["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton113.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/inf-jump/main/inf-jump"), true))()
+	end)
+	----TextButton113----
+	--UICorner114--
+	local UICorner114 = Instance.new("UICorner",TextButton113)
+	UICorner114["CornerRadius"] = UDim.new(0, 4)
+	----UICorner114----
+	--TextButton115--
+	local TextButton115 = Instance.new("TextButton",Frame108)
+	TextButton115["TextWrapped"] = true
+	TextButton115["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton115["Text"] = "Teleport (Q)"
+	TextButton115["Font"] = Enum.Font.FredokaOne
+	TextButton115["Name"] = "tp"
+	TextButton115["Position"] = UDim2.new(0.00845277123, 0, 0.821396172, 0)
+	TextButton115["TextSize"] = 14
+	TextButton115["Size"] = UDim2.new(0, 109, 0, 24)
+	TextButton115["TextScaled"] = true
+	TextButton115["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	TextButton115.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/teleport/main/teleport"), true))()
+	end)
+	----TextButton115----
+	--UICorner116--
+	local UICorner116 = Instance.new("UICorner",TextButton115)
+	UICorner116["CornerRadius"] = UDim.new(0, 4)
+	----UICorner116----
+	--TextLabel117--
+	local TextLabel117 = Instance.new("TextLabel",Frame108)
+	TextLabel117["TextWrapped"] = true
+	TextLabel117["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel117["Text"] = "name"
+	TextLabel117["TextSize"] = 14
+	TextLabel117["Font"] = Enum.Font.FredokaOne
+	TextLabel117["BackgroundTransparency"] = 1
+	TextLabel117["Position"] = UDim2.new(0.0103891389, 0, 0.315019846, 0)
+	TextLabel117["TextScaled"] = true
+	TextLabel117["Size"] = UDim2.new(0, 99, 0, 26)
+	TextLabel117["BorderSizePixel"] = 0
+	TextLabel117["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel117----
+	--Script118--
+	local Script118 = Instance.new("Script",TextLabel117)
+	----Script118----
+	--ImageLabel119--
+	local ImageLabel119 = Instance.new("ImageLabel",Frame108)
+	ImageLabel119["Size"] = UDim2.new(0, 98, 0, 86)
+	ImageLabel119["Image"] = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+	ImageLabel119["Position"] = UDim2.new(0.014819622, 0, 0.0145094423, 0)
+	ImageLabel119["BackgroundColor3"] = Color3.new(0.0784314, 0.0784314, 0.0784314)
+	----ImageLabel119----
+	--UICorner120--
+	local UICorner120 = Instance.new("UICorner",ImageLabel119)
+	UICorner120["CornerRadius"] = UDim.new(0, 50)
+	----UICorner120----
+	--Script121--
+	local Script121 = Instance.new("Script",ImageLabel119)
+	----Script121----
+	--Frame122--
+	local Frame122 = Instance.new("Frame",Frame3)
+	Frame122["Size"] = UDim2.new(0, 159, 0, 3)
+	Frame122["Position"] = UDim2.new(0, 0, 0.113207549, 0)
+	Frame122["BorderSizePixel"] = 0
+	Frame122["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	----Frame122----
+	--Frame123--
+	local Frame123 = Instance.new("Frame",Frame3)
+	Frame123["Position"] = UDim2.new(0.773181856, 0, -0.0094339624, 3)
+	Frame123["BorderColor3"] = Color3.new(0.105882, 0.164706, 0.207843)
+	Frame123["Size"] = UDim2.new(0, 3, 0, 318)
+	Frame123["BorderSizePixel"] = 0
+	Frame123["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	----Frame123----
+	--Frame124--
+	local Frame124 = Instance.new("Frame",Frame3)
+	Frame124["Position"] = UDim2.new(0.289090872, 0, 0, 0)
+	Frame124["Archivable"] = false
+	Frame124["Size"] = UDim2.new(0, 3, 0, 318)
+	Frame124["BorderSizePixel"] = 0
+	Frame124["BackgroundColor3"] = Color3.new(0.196078, 0.196078, 0.196078)
+	----Frame124----
+	--TextLabel125--
+	local TextLabel125 = Instance.new("TextLabel",Frame3)
+	TextLabel125["TextWrapped"] = true
+	TextLabel125["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel125["Text"] = "Cheatedd Script Hub"
+	TextLabel125["TextSize"] = 17
+	TextLabel125["Font"] = Enum.Font.FredokaOne
+	TextLabel125["BackgroundTransparency"] = 1
+	TextLabel125["Position"] = UDim2.new(0.00400564075, 0, 0.0166618377, 0)
+	TextLabel125["TextScaled"] = true
+	TextLabel125["Size"] = UDim2.new(0, 156, 0, 30)
+	TextLabel125["BorderSizePixel"] = 0
+	TextLabel125["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel125----
+	--UIGradient126--
+	local UIGradient126 = Instance.new("UIGradient",TextLabel125)
+	UIGradient126["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0.298039,0.298039,0.298039)),
+		ColorSequenceKeypoint.new(0.5,Color3.new(0.396241,0.396241,0.396241)),
+		ColorSequenceKeypoint.new(1,Color3.new(1,1,1))
+	}
+	----UIGradient126----
+	--Frame127--
+	local Frame127 = Instance.new("Frame",Frame3)
+	Frame127["Name"] = "DropShadowHolder"
+	Frame127["BackgroundTransparency"] = 1
+	Frame127["ZIndex"] = 0
+	Frame127["BorderSizePixel"] = 0
+	Frame127["Size"] = UDim2.new(1, 0, 1, 0)
+	----Frame127----
+	--ImageLabel128--
+	local ImageLabel128 = Instance.new("ImageLabel",Frame127)
+	ImageLabel128["ImageColor3"] = Color3.new(0, 0, 0)
+	ImageLabel128["ScaleType"] = Enum.ScaleType.Slice
+	ImageLabel128["ImageTransparency"] = 0.5
+	ImageLabel128["SliceCenter"] = Rect.new(49, 49, 450, 450)
+	ImageLabel128["AnchorPoint"] = Vector2.new(0.5, 0.5)
+	ImageLabel128["Image"] = "rbxassetid://6014261993"
+	ImageLabel128["Name"] = "DropShadow"
+	ImageLabel128["Position"] = UDim2.new(0.5, 0, 0.5, 0)
+	ImageLabel128["BackgroundTransparency"] = 1
+	ImageLabel128["ZIndex"] = 0
+	ImageLabel128["BorderSizePixel"] = 0
+	ImageLabel128["Size"] = UDim2.new(1, 47, 1, 47)
+	----ImageLabel128----
+	--ImageButton129--
+	local ImageButton129 = Instance.new("ImageButton",ScreenGui1)
+	ImageButton129["Image"] = "http://www.roblox.com/asset/?id=13726848792"
+	ImageButton129["Name"] = "open/close"
+	ImageButton129["Position"] = UDim2.new(0, 0, 0, 219)
+	ImageButton129["Size"] = UDim2.new(0, 81, 0, 82)
+	ImageButton129["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ImageButton129----
+	--UICorner130--
+	local UICorner130 = Instance.new("UICorner",ImageButton129)
+	UICorner130["CornerRadius"] = UDim.new(0, 50)
+	----UICorner130----
+	--Script131--
+	local Script131 = Instance.new("Script",ImageButton129)
+	Script131["Name"] = "open/close script"
+	----Script131----
+	--Script132--
+	local Script132 = Instance.new("Script",ScreenGui1)
+	----Script132----
+	spawn(function() --Source for Script2
+		local script = Script2
+		local mainFrame = script.Parent.MainFrame
+		local open = script.Parent.Open
+		
+		if open.Visible == true and mainFrame.Visible == true then
+			open.Visible = false
+		else
+			open.Visible = true
+		end
+	end)
+	spawn(function() --Source for Script106
+		local script = Script106
+		local Home = script.Parent.Pages.Home
+		local exe = script.Parent.Pages.Exe
+		local hub = script.Parent.Pages.Hub
+		local setting = script.Parent.Pages.Settings
+		local credits = script.Parent.Pages.Credits
+		
+		local home = script.Parent.Buttons.Home
+		local executor = script.Parent.Buttons.EXE
+		local scripthub = script.Parent.Buttons.Hub
+		local stngs = script.Parent.Buttons.Settings
+		local credit = script.Parent.Buttons.Credits
+		
+		
+		home.MouseButton1Click:Connect(function()
+			Home.Visible = true
+			exe.Visible = false
+			hub.Visible = false
+			setting.Visible = false
+			credits.Visible = false
+		end)
+		
+		executor.MouseButton1Click:Connect(function()
+			Home.Visible = false
+			exe.Visible = true
+			hub.Visible = false
+			setting.Visible = false
+			credits.Visible = false
+		end)
+		
+		scripthub.MouseButton1Click:Connect(function()
+			Home.Visible = false
+			exe.Visible = false
+			hub.Visible = true
+			setting.Visible = false
+			credits.Visible = false
+		end)
+		
+		stngs.MouseButton1Click:Connect(function()
+			Home.Visible = false
+			exe.Visible = false
+			hub.Visible = false
+			setting.Visible = true
+			credits.Visible = false
+		end)
+		
+		credit.MouseButton1Click:Connect(function()
+			Home.Visible = false
+			exe.Visible = false
+			hub.Visible = false
+			setting.Visible = false
+			credits.Visible = true
+		end)
+		
+		
+		
+		
+		
+	end)
+	spawn(function() --Source for Script107
+		local script = Script107
+		local UIS = game:GetService("UserInputService")
+		function dragify(Frame)
+			dragToggle = nil
+			dragSpeed = 0.15
+			dragInput = nil
+			dragStart = nil
+			dragPos = nil
+			function updateInput(input)
+				Delta = input.Position - dragStart
+				Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+				game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.15), {Position = Position}):Play()
+			end
+			Frame.InputBegan:Connect(function(input)
+				if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+					dragToggle = true
+					dragStart = input.Position
+					startPos = Frame.Position
+					input.Changed:Connect(function()
+						if input.UserInputState == Enum.UserInputState.End then
+							dragToggle = false
+						end
+					end)
+				end
+			end)
+			Frame.InputChanged:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+					dragInput = input
+				end
+			end)
+			game:GetService("UserInputService").InputChanged:Connect(function(input)
+				if input == dragInput and dragToggle then
+					updateInput(input)
+				end
+			end)
+		end
+		dragify(script.Parent)
+		
+	end)
+	spawn(function() --Source for Script118
+		local script = Script118
+		local player = game.Players.LocalPlayer
+		
+		script.Parent.Text = player.Name
+	end)
+	spawn(function() --Source for Script121
+		local script = Script121
+		local Players = game:GetService("Players")
+		local player = Players.LocalPlayer
+		local imagelabel = script.Parent
+		imagelabel.Image = Players:GetUserThumbnailAsync(player.UserId,Enum.ThumbnailType.HeadShot,Enum.ThumbnailSize.Size420x420)
+	end)
+	spawn(function() --Source for Script131
+		local script = Script131
+		script.Parent.MouseButton1Click:Connect(function()
+			script.Parent.Parent:WaitForChild("MainFrame").Visible = not script.Parent.Parent:WaitForChild("MainFrame").Visible
+		end)
+	end)
+	spawn(function() --Source for Script132
+		local script = Script132
+		Game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Cheated Has Loaded"; Text = "Welcome to Cheated Offical Script!"; Icon = ""; })
+		
+	end)
+end
+createGui(game.CoreGui) --coregui by default you should but change it
